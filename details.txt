@@ -1,0 +1,33 @@
+Remember that, if you're going to download code files, you've to create a database name "mini_project", 
+
+
+table name "students_info", and inside this table, 
+	you've to create ten rows (id, name, roll, age, email, city, contact, class, photo, datetime). 
+Otherwise, you can replace the name of the database, table, and table rows with your database table details in my given files.
+
+id type int(5) auto_increment
+name type varchar(50)
+roll type int(6) unique
+age type int(5)
+email type varchar(50)
+city type varchar(20)
+contact type varchar(11)
+class type varchar(3)
+photo type varchar(50)
+datetime type timestamp
+
+
+table name "users", and inside this table, 
+	you've to create ten rows (id, name, age, mobile, email, username, password, photo, status, date_time). 
+Otherwise, you can replace the name of the database, table, and table rows with your database table details in my given files.
+
+id type int(11) auto_increment
+name type varchar(50) 
+age type int(11)
+mobile type int(11)
+email type varchar(50)
+username type varchar(50) unique
+password type varchar(50)
+photo type varchar(50)
+status type varchar(10)
+date_time type timestamp

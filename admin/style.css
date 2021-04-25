@@ -1,0 +1,14 @@
+.error{
+	color: red;
+	font-style: italic;
+	font-weight: 700;
+}
+.footer-area{
+	background: rgb(28, 110, 170);
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+}
+.footer-area p{
+	margin: 0;
+}
